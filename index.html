@@ -3,32 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TaskDeck - Native macOS Task Canvas</title>
+  <title>TaskDeck - Native macOS Task & Calendar Workspace</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
-    .hero { background: #f5f5f7; padding: 30px; border-radius: 12px; margin-bottom: 30px; }
-    h1 { color: #000; margin-top: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+    .hero { background: #f5f5f7; padding: 32px; border-radius: 12px; margin-bottom: 30px; }
+    h1 { color: #000; margin-top: 0; font-size: 2.2rem; letter-spacing: -0.5px; }
+    .section { margin-bottom: 24px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <div class="hero">
     <h1>TaskDeck</h1>
-    <p><strong>TaskDeck</strong> is a native macOS productivity application designed to organize, manage, and synchronize your Google Tasks and Google Calendar events into a unified desktop workspace.</p>
+    <p><strong>TaskDeck</strong> is a native macOS productivity and daily planning application that brings your Google Tasks and Google Calendar events into a single, unified desktop workspace.</p>
   </div>
 
-  <h2>App Purpose & Functionality</h2>
-  <p>TaskDeck helps users manage daily task lists and schedule time blocks on a visual board. By connecting to Google APIs, TaskDeck enables users to view, create, edit, and complete tasks from Google Tasks, as well as view calendar events from Google Calendar directly from their Mac.</p>
+  <div class="section">
+    <h2>Application Purpose</h2>
+    <p>The primary purpose of TaskDeck is to help users manage daily tasks and schedule time blocks visually. By integrating with Google Tasks and Google Calendar APIs, TaskDeck allows users to view, create, edit, organize, and complete tasks alongside their scheduled calendar events directly from their Mac.</p>
+  </div>
 
-  <h2>Data Usage & Privacy</h2>
-  <p>TaskDeck processes all task and calendar data locally on your device. Authentication tokens are securely stored in the native macOS Keychain. Your Google user data is never stored on third-party servers, tracked, or sold.</p>
+  <div class="section">
+    <h2>Google API Integration & Data Usage</h2>
+    <p>TaskDeck accesses Google Tasks and Google Calendar API scopes solely to synchronize your personal task lists and calendar entries. All user data, OAuth authentication tokens, and cached items are stored locally on your device using macOS Keychain and local encrypted storage. <strong>TaskDeck does not transfer, track, share, or sell user data to external servers or third parties.</strong></p>
+  </div>
 
   <footer>
-    <hr>
     <p>
       <a href="privacy.html">Privacy Policy</a> | 
       <a href="terms.html">Terms of Service</a> | 
       Contact: support@agoldschmidt.com
     </p>
+    <p>&copy; 2026 TaskDeck. All rights reserved.</p>
   </footer>
 </body>
 </html>

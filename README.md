@@ -17,6 +17,8 @@ This repository hosts the static landing page, privacy policy, and terms of serv
 └── README.md       # Project documentation
 ```
 
+---
+
 ## 🌐 Live Hosted Pages
 
 * **Homepage**: [https://taskdeck.agoldschmidt.com](https://taskdeck.agoldschmidt.com) — Product introduction and feature overview.

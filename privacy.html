@@ -5,27 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TaskDeck - Privacy Policy</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
     h1, h2 { color: #000; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy for TaskDeck</h1>
   <p><strong>Last updated:</strong> August 2026</p>
+  <p>TaskDeck operates as a native desktop application for macOS. We prioritize user privacy and data security.</p>
   
-  <p>TaskDeck operates as a standalone, native desktop application for macOS. We prioritize your privacy and data security by ensuring your information stays on your device.</p>
-  
-  <h2>1. Data Collection & API Usage</h2>
-  <p>TaskDeck requests access to the <strong>Google Tasks API</strong> and <strong>Google Calendar API</strong>. This access is used strictly to display, manage, and synchronize your tasks and calendar events directly within the macOS interface.</p>
-  
-  <h2>2. Local Data Storage</h2>
-  <p>Your data never touches our servers. All Google authentication tokens, tasks, and calendar entries are processed and stored completely locally on your machine. TaskDeck utilizes the native macOS Keychain to securely store your OAuth credentials and authorization state.</p>
-  
-  <h2>3. Data Sharing & Third Parties</h2>
-  <p><strong>We do not collect, sell, rent, or transfer your Google user data to any external servers, analytics providers, or third parties.</strong> Your data moves directly and securely between your local TaskDeck application and Google's official API servers.</p>
+  <h2>1. Google User Data Accessed</h2>
+  <p>TaskDeck accesses specific Google user data through official Google APIs strictly to provide core app functionality. The exact data accessed includes:</p>
+  <ul>
+    <li><strong>Google Tasks Data:</strong> Task titles, descriptions, due dates, task list names, completion status, and hierarchical structure.</li>
+    <li><strong>Google Calendar Data:</strong> Event titles, start and end times, descriptions, event status, and calendar list metadata.</li>
+    <li><strong>Account Identifiers:</strong> Your Google Account email address and basic profile details used solely for multi-account authentication and identification within the app interface.</li>
+  </ul>
+
+  <h2>2. Retention and Deletion of Google User Data</h2>
+  <p>We do not store your Google user data on any remote servers. Data retention and deletion are managed under the following policies:</p>
+  <ul>
+    <li><strong>Local Storage & Retention:</strong> All retrieved Google user data (tasks, calendar events) and OAuth access tokens are cached exclusively on your local device (using macOS Keychain and encrypted local storage) for offline capabilities and application performance.</li>
+    <li><strong>Data Deletion:</strong> You can delete your Google user data at any time by signing out of your account or removing the account within the TaskDeck settings. Signing out immediately deletes all stored OAuth credentials, refresh tokens, and locally cached task and calendar data from your local machine.</li>
+    <li><strong>Revoking Access:</strong> You can revoke TaskDeck’s access to your Google account at any time via <a href="https://myaccount.google.com/permissions">Google Security Settings</a>. Upon revocation, TaskDeck will no longer be able to access or sync your data, and local credentials will be cleared.</li>
+  </ul>
+
+  <h2>3. Data Usage & Third-Party Sharing</h2>
+  <p><strong>We do not collect, sell, rent, or transfer your Google user data to external servers or third parties.</strong> All data moves directly and securely between your local TaskDeck application and Google's official API endpoints.</p>
 
   <h2>4. Contact Us</h2>
-  <p>If you have any questions or concerns about this privacy policy, please contact the developer at: support@agoldschmidt.com</p>
+  <p>If you have any questions regarding this privacy policy or data deletion practices, contact us at: support@agoldschmidt.com</p>
 
   <p><a href="index.html">&larr; Back to TaskDeck</a></p>
 </body>
